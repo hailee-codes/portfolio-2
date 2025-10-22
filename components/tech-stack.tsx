@@ -16,7 +16,7 @@ export default function TechStack() {
     },
     {
       name: "Tools & DevOps",
-      technologies: ["Git", "Docker", "AWS", "GitHub Actions"],
+      technologies: ["Git", "Docker", "AWS", "Vercel", "GitHub Actions"],
     },
   ]
 
