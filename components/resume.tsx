@@ -51,26 +51,12 @@ export default function Resume() {
 
             {/* Resume Preview */}
             <div className="flex-1 w-full sm:w-auto">
-              <div className="bg-background border-2 border-border rounded-lg p-6 aspect-[8.5/11] flex flex-col justify-between overflow-hidden">
-                <div>
-                  <h4 className="text-lg font-bold text-foreground mb-2">Binks</h4>
-                  <p className="text-xs text-foreground/60 mb-4">Full Stack Developer | AI/ML Enthusiast</p>
-                  <div className="space-y-3 text-xs">
-                    <div>
-                      <p className="font-semibold text-primary">EDUCATION</p>
-                      <p className="text-foreground/70">Bachelor's Degree in Computer Science</p>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-primary">SKILLS</p>
-                      <p className="text-foreground/70">React, Next.js, Python, TensorFlow, Node.js</p>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-primary">PROJECTS</p>
-                      <p className="text-foreground/70">10+ Web & ML Projects</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-xs text-foreground/50 text-center">Download for full details</div>
+              <div className="bg-background border-2 border-border rounded-lg overflow-hidden aspect-[8.5/11]">
+                <iframe
+                  src="/resume.pdf#view=fitH"
+                  className="w-full h-full"
+                  title="Resume Preview"
+                ></iframe>
               </div>
             </div>
           </div>
